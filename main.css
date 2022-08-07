@@ -1,0 +1,245 @@
+
+body{
+    text-align: center;
+    background-color: #fffafa;
+    font-family: 'Averta-Regular', sans-serif;
+}
+
+section #container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+section #container span{
+    color: red;
+}
+
+#first-section{
+    background: url(./img/download.svg);
+    height: 100%;
+    padding: 3rem 0;
+    color: #514949;
+    padding-bottom: 15rem;
+}
+
+#first-section h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+#first-section h1{
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-weight: 800;
+}
+
+#first-section p{
+    width: 65%;
+    margin: 1rem auto;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.9;
+}
+
+#first-section #btn-div{
+    width: 50%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-section #btn-div a{
+    text-decoration: none;
+}
+#first-section #btn-div a button{
+    width: 100%;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#first-section #btn-div .btn-red{
+    background-color: #E7332B;
+    color: #fff;
+    border: solid 1px #fff;
+}
+
+#first-section #btn-div .btn-red-outline{
+    border: solid 0.1px #E7332B;
+    color: #E7332B;
+    background-color: #fff;
+}
+
+#second-section{
+    background: #fff;
+    position: relative;
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
+#second-section #container img{
+    width: 30%;
+    position: absolute;
+    top: 15rem;
+    z-index: 0;
+}
+
+#second-section .left-dots{
+    left: -6rem;
+}
+
+#second-section .right-dots{
+    right: -6rem;
+    overflow: hidden;
+}
+
+#second-section #container{
+    width: 96%;
+}
+
+#second-section #container h4{
+    color: red;
+    font-weight: 400;
+}
+
+#second-section #container h2{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+    font-weight: 400;
+}
+
+#second-section #container #programs{
+    display: flex;
+    justify-content: space-between;
+}
+
+#second-section #container #programs div{
+    width: 25%;
+    background-color: #FFFAFA;
+    z-index: 1000;
+    text-align: left;
+    padding: 61px 47px 82px 36px;
+}
+
+#second-section #container #programs div h3{
+    width: 50%;
+    padding: 1.5rem 0;
+    padding-left: 20px;
+    background-color: #fff;
+}
+
+#second-section #container #programs div p{
+    color: #514949;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+#second-section #container #programs div a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+}
+
+#third-section #container{
+    padding: 6rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #5149495f;
+    
+}
+#third-section #container h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #514949;
+}
+
+#third-section #container a{
+    color: #E7332B;
+    text-decoration: none;
+    display: block;
+    margin: 1rem 0;
+}
+
+#third-section #container #contact{
+    text-align: left;
+}
+
+#third-section #container #contact p{
+    line-height: 20px;
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+#third-section #container #socials{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+    text-align: left;
+}
+
+#third-section #container #socials div{
+    display: flex;
+    margin: -20px 0;
+}
+
+#third-section #container #socials div img{
+    width: 18px !important;
+    margin-right: 13px;
+}
+
+footer{
+    padding: 2rem 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #514949;
+}
+    /* tablet */
+@media screen and (max-width: 1024px){
+    #first-section #btn-div{
+        width: 70%;
+    }
+    #second-section #container #programs{
+        display: block;
+    }
+    #second-section #container #programs div{
+        width: 80%;
+        margin: 1rem auto;
+    }
+}
+
+/* phone */
+@media screen and (max-width: 700px){
+    #first-section #btn-div{
+        display: block;
+    }
+
+    #first-section #btn-div button{
+        margin: 1rem 0;
+    }
+
+    #third-section #container{
+        display: block;
+    }
+    #third-section #container #contact{
+        text-align: center;
+    }
+    #third-section #container #socials{
+        text-align: center;
+        justify-content: center;
+    }
+    #third-section #container #socials div{
+        display: flex;
+        justify-content: center;
+    }
+}
+    

@@ -1,0 +1,6 @@
+def food 
+   class agro
+   i++ = [agro]
+   agro= {
+       i
+   }
